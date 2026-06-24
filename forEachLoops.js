@@ -36,3 +36,6 @@ let names = ["Simba", "Scar", "Nala", "Mufasa", "Zazu"];
 // 5. Use a forEach loop to print each name along with its index number.
 //  - Remember: the index can be put as a second parameter.
 //  - Example: the first message should read something like "Simba (Index: 0)"
+names.forEach(function (name){
+    console.log(name);
+});
