@@ -11,7 +11,7 @@ array.forEach(function (element) {
 //  - The output should look like "Color: red", "Color: green", "Color: blue".
 let colors = ['red', 'green', 'blue'];
 colors.forEach(function (color) {
-    console.log(color);
+    console.log("Color: "+ color);
 });
 
 
